@@ -2,6 +2,8 @@ baseURL: "https://ludmilla-penarrubia.github.io/webpage/"
 languageCode: "fr-us"
 title: "Ludmilla Penarrubia"
 theme: hugo-profile
+relativeURLs: true
+canonifyURLs: false
 
 outputs:
   home:
