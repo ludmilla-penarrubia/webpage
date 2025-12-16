@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
-languageCode: "en-us"
-title: "Hugo Profile"
+baseURL: "https://https://ludmilla-penarrubia.github.io/webpage/"
+languageCode: "fr-us"
+title: "Ludmilla Penarrubia"
 theme: hugo-profile
 
 outputs:
@@ -268,7 +268,7 @@ params:
               J'ai particulièrement participé à des projets touchant à la psychométrie, au traitement d'images, au traitement automatique du language naturel (NLP).
                 Tous ces projets m'ont permis d'appliquer ces compétences à différents secteurs tels que le secteur médical (prise en charge et/ou diagnostic de l'endométriose, détection précoce de la schizophrénie), industriel (rédaction et classification de tickets d'incidents).
             
-              Activités :s
+              Activités :
                 - Détection de ligaments utéro-sacrés sur des images IRM (2D)
                 - *Clustering* de données tabulaires et textuelles
                 - Détection automatique de bactéries sur boite de pétri
