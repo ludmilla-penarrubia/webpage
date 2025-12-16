@@ -3,7 +3,6 @@ languageCode: "fr-us"
 title: "Ludmilla Penarrubia"
 theme: hugo-profile
 relativeURLs: true
-canonifyURLs: false
 
 outputs:
   home:
