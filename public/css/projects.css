@@ -62,3 +62,8 @@
 #projects .float-end .btn:focus {
     box-shadow: none !important;
 }
+
+.text-justified p {
+    text-align: justify;
+    text-justify: inter-word;
+}
