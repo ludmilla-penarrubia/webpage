@@ -333,7 +333,7 @@ params:
 
 
       - company: "Seoul National University"
-        companyUrl: "https://example.com"
+        companyUrl: "https://www.brain.snu.ac.kr/home"
         jobs:
         - name: "Stagiaire de recherche"
           date: "June 2018 - Août 2018"
@@ -358,8 +358,8 @@ params:
             - enable : true
               name : LaTeX
 
-      - company: "Orange Caraïbes"
-        companyUrl: "https://example.com"
+      - company: "Orange Caraïbe"
+        companyUrl: "https://pro.caraibe.orange.fr/"
         jobs:
         - name: "Stagiaire en développement logiciel"
           date: "Juin 2017 - Juillet 2017"
