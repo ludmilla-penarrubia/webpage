@@ -1,4 +1,4 @@
-baseURL: "https://ludmilla-penarrubia.github.io/webpage/"
+baseURL: "https://ludmilla-penarrubia.github.io/"
 languageCode: "fr-us"
 title: "Ludmilla Penarrubia"
 theme: hugo-profile
@@ -94,7 +94,9 @@ params:
     fontWeight: 400 # default: 400
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
-
+    
+  customCSS:
+    - css/custom.css
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   # color:
@@ -486,40 +488,62 @@ params:
   #       url: https://example.com
 
   # projects
-  # projects:
-  #   enable: true
-  #   title: "Publications"
-  #   items:
-  #     - title: Article
-  #       content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-  #       image: /images/projects/profile.png
-  #       featured:
-  #         name: Demo
-  #         link: https://hugo-profile.netlify.app
-  #       badges:
-  #         - "Hugo"
-  #         - "Bootstrap"
-  #         - "Javascript"
-  #       links:
-  #         - icon: fa fa-envelope
-  #           url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-  #         - icon: fab fa-github
-  #           url: https://github.com/gurusabarish/hugo-profile
-  #         - icon: fab fa-twitter
-  #           url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+  projects:
+    enable: true
+    title: "Publications"
+    subtitle: "Dans des revues à comité de lecture"
+    items:
+      - title: Critical Care (2025)
+        content: "Diagnostic performance of the recruitment-to-inflation ratio to assess lung recruitability by PEEP in ARDS: a computed tomography study"
+        image: /images/projects/critic_care.png
+        featured:
+          name: DOI
+          link: https://doi.org/10.1186/s13054-025-05453-0
+        badges:
+          - Co-auteur
+          - "Réanimation"
+          - "SDRA"
+          - Tomodensitométrie
+        # links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
 
-  #     - title: Image Converter
-  #       content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-  #       image: /images/projects/converter.jpg
-  #       featured:
-  #         name: Demo
-  #         link: https://django-converter.herokuapp.com
-  #       badges:
-  #         - "Django"
-  #         - "Bootstrap"
-  #       links:
-  #         - icon: fab fa-github
-  #           url: https://github.com/gurusabarish/converter
+      - title: Intensive Care Medicine Experimental (2023)
+        content: Precision of CT-derived alveolar recruitment assessed by human observers and a machine learning algorithm in moderate and severe ARDS
+        image: /images/projects/intensive_care_med_exp.png
+        featured:
+          name: DOI
+          link: https://doi.org/10.1186/s40635-023-00495-6
+        badges:
+          - 1er auteur
+          - "Réanimation"
+          - "ARDS"
+          - Tomodensitométrie
+      - title: Medical Physics (2022)
+        content: Improving motion-mask segmentation in thoracic CT with multiplanar U-nets
+        image: /images/projects/medical_physics.png
+        featured:
+          name: DOI
+          link: https://doi.org/10.1002/mp.15347
+        badges:
+          - 1er auteur
+          - "U-net"
+          - "Segmentation"
+          - Tomodensitométrie
+      - title: Journal of Critcial Care (2020)
+        content: "Quantitative-analysis of computed tomography in COVID-19 and non COVID-19 ARDS patients: A case-control study"
+        image: /images/projects/journal_critic_care.png
+        featured:
+          name: DOI
+          link: https://doi.org/10.1016/j.jcrc.2020.08.006
+        badges:
+          - Co-auteur
+          - "Réanimation"
+          - "ARDS"
+          - Tomodensitométrie
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/converter
 
 
   #Contact
@@ -546,6 +570,7 @@ params:
     socialNetworks:
       github: https://github.com/ludmilla-penarrubia
       linkedin: https://fr.linkedin.com/in/ludmilla-penarrubia/fr
+      googleScholar : https://scholar.google.com/citations?user=hwI_lLUAAAAJ&hl=fr
       # twitter: https://twitter.com
       # instagram: https://instagram.com
       # facebook: https://facebook.com
